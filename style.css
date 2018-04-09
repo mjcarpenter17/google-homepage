@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+  color:#555;
+  margin:0;
+
+  font-family: 'Montserrat',sans-serif;
+}
+#header {
+  background-color: white;
+  height: 50px;
+  line-height: 50px;
+}
+#header a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#header a:hover{
+  color: grey;
+}
+#header-title{
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header-nav{
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.container{
+
+  margin: 0 auto;
+}
+.footer-container{
+  margin: 0 auto;
+  text-align: center;
+}
+.content-container{
+  margin: 0px 200px;
+  text-align: center;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 0;
+}
+#footer h4{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p{
+  color: white;
+  padding: 0;
+}
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+a:hover {
+  color: #F6A623;
+}
+.search-container {
+  max-width: 1000px;
+  text-align: center;
+  margin: -60px 0px 120px -140px;
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+}
+
+.searchBox {
+  border: 0;
+  width: 500px;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
+
+.searchButton {
+  background: #538AC5;
+  border: 0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+}
+
+.content-logo img {
+  width: 690px;
+  height: 460px;
+  vertical-align: middle;
+}
+
+h1,h2,h3,h4 {
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
